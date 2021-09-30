@@ -130,11 +130,7 @@
                               
                               // Full available details
                               console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                  
-                              // Show a success message within this page, e.g.
-                              const element = document.getElementById('paypal-button-container');
-                              element.innerHTML = '';
-                              element.innerHTML = '<h3>Thank you for your payment! Join the discord server to claim discord.gg/XjCdrvqGWE</h3>';
+                  actions.redirect('https://complete.secretguard.xyz/order/bundle/random/8bit/thank_you.html');
                   
                               // Or go to another URL:  actions.redirect('thank_you.html');
                               
